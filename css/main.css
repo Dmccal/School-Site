@@ -1,0 +1,238 @@
+/*** sectioning elements ***/
+
+body {
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+  background-color: #dddddd;
+}
+
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+
+}
+
+h2 {
+color: #08086b;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+  font-size: 30px;
+}
+
+li {
+font-size: 20px;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+}
+
+tr {
+  padding: 4px;
+}
+
+tr.every-other{
+  background-color: #FFFFFF;
+}
+
+th {
+  background-color: #0101ff;
+  color: #FFFFFF;
+  padding: 4px;
+}
+
+td {
+  padding: 4px;
+}
+
+footer a{
+  color: #7d7e80;
+  text-decoration: none;
+}
+
+.site-name {
+  background-color: #0101ff;
+  font-size: 65px;
+}
+
+.site-name a:link
+.site-name a:visited {
+  color: #FFFFFF;
+}
+
+.site-name a:hover,
+.site-name a:active {
+  color: #ff011d;
+  text-decoration: none;
+}
+
+.navbar{
+  font-size: 24px;
+  background-color: #0101ff;
+  color: #FFFFFF;
+}
+.navbar a:link,
+.navbar a:visited {
+  color: #FFFFFF;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #ff011d;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 65px;
+}
+
+li.alt {
+  background-color: #ff011d;
+  color: white;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.red {
+  color: #ff011d;
+}
+
+.main-nav {
+  padding-top: 15px;
+}
+
+table:h1 {
+  color: #4f2682;
+}
+/*** image styles ***/
+
+img  {
+
+}
+
+.space {
+  padding: 15px;
+}
+
+.mission-statement {
+  background-color: #ff011d;
+}
+
+.in-the-news {
+  background-color: #0101ff;
+}
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+table.shade-even-rows tbody tr:nth-child(even){
+  background-color: #ff011d;
+  color: #FFFFFF;
+}
+
+table a{
+  color: #000000;
+}
+
+tr:nth-child(even) a{
+  color:#FFFFFF;
+}
+
+
+@media (max-width: 600px) {
+  table {
+    max-width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    display: block;
+    margin: 5px 0;
+    max-width: 100%;
+    border: 1px solid #DDDDDD;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+}
