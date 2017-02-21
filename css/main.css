@@ -5,7 +5,7 @@ body {
 }
 
 header {
-
+    font-family: 'Merriweather', sans-serif;
 }
 
 main {
@@ -38,6 +38,7 @@ h1 {
 
 h2 {
 color: #08086b;
+font-family: 'Exo 2', sans-serif;
 }
 
 h3 {
@@ -45,7 +46,7 @@ h3 {
 }
 
 h4 {
-
+font-family: 'News Cycle', sans-serif;
 }
 
 h5 {
@@ -66,6 +67,11 @@ blockquote {
 
 ol {
 
+}
+
+caption{
+  font-weight: bold;
+  font-size: 30px;
 }
 
 ul {
@@ -104,14 +110,23 @@ footer a{
   text-decoration: none;
 }
 
+.top{
+  background-color: #0101ff;
+  font-size: 65px;
+  margin: 0px;
+  position: relative;
+}
+
 .site-name {
   background-color: #0101ff;
   font-size: 65px;
+  margin: 0px;
 }
 
-.site-name a:link
+.site-name a:link,
 .site-name a:visited {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 .site-name a:hover,
@@ -124,6 +139,7 @@ footer a{
   font-size: 24px;
   background-color: #0101ff;
   color: #FFFFFF;
+  padding-top: 20px;
 }
 .navbar a:link,
 .navbar a:visited {
@@ -155,6 +171,10 @@ li.alt {
 
 .main-nav {
   padding-top: 15px;
+}
+
+.navbar-menu li{
+  padding: 15px;
 }
 
 table:h1 {
