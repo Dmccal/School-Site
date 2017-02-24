@@ -1,7 +1,7 @@
 /*** sectioning elements ***/
 
 body {
-
+  width: 100%;
 }
 
 header {
@@ -47,6 +47,7 @@ h3 {
 
 h4 {
 font-family: 'News Cycle', sans-serif;
+padding: 5px;
 }
 
 h5 {
@@ -76,10 +77,14 @@ caption{
 
 ul {
   font-size: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 li {
 font-size: 20px;
+padding: 5px;
 }
 
 table {
@@ -169,6 +174,15 @@ li.alt {
   color: #ff011d;
 }
 
+.blue {
+  color: #0101ff;
+}
+
+.black {
+  color: #000000;
+}
+
+
 .main-nav {
   padding-top: 15px;
 }
@@ -179,6 +193,10 @@ li.alt {
 
 table:h1 {
   color: #4f2682;
+}
+
+.bold {
+  font-weight: bold;
 }
 /*** image styles ***/
 
@@ -254,5 +272,9 @@ tr:nth-child(even) a{
     content: attr(aria-label);
     float: left;
     font-weight: bold;
+  }
+
+  .site-name{
+    font-size: 50px;
   }
 }
